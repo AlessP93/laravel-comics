@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    width: 62.5rem;
+    flex-wrap: wrap;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5625rem 0;
+    list-style: none;
+
+ 
+
+    img {
+        aspect-ratio: 1/1;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+}
+
+.card {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.sc-grey {
+    background-color: var(--fourthy-color);
+    color: white;
+    text-align: center;
+    padding: .9375rem 0;
+
+    button {
+        border: .1875rem solid var(--tertiary-color);
+        background-color: var(--tertiary-color);
+        color: white;
+        padding: .375rem 2.1875rem;
+    }
+}

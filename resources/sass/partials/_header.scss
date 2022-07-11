@@ -1,0 +1,35 @@
+.header {
+    justify-content: space-between;
+
+    &__logo {
+        padding: .625rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    &__nav {
+        align-self: center;
+        ul {
+            display: flex;
+            list-style: none;
+            column-gap: 1.25rem;
+            font-size: .75rem;
+        }
+        a {
+            transition: all;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: var(--tertiary-color);
+            }
+    }
+
+    .container {
+        display: flex;
+    }
+}
